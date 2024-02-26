@@ -1,4 +1,4 @@
-# India-Start-up-ecosystems
+# 🗺️ India-Start-up-ecosystems
 We embark on a journey of discovery as we leverage our data analysis expertise in a team of six to uncover the untapped potential within the Indian start-up ecosystem.
 
 ## Scope of work 
@@ -6,7 +6,7 @@ The sustainability of every business is dependent on a country's ecosystem in te
 - Conducting a thorough exploration of datasets, dissecting funding patterns, sectoral nuances, and geographical hotspots in the Indian startup landscape
 - Analyze funding received by startups in india from 2018 to 2021
 
-##💹 Structure of analysis 
+## 💹 Structure of analysis 
 The project data will be extracted on external sources showcasing different startups in various industries with the level of funding they have received and its impact of performance on India's ecosystem. The analysis will be delving down into four major ecosystem sectors which include Funds, Investors, Industry and Geographical location each answering a set of business questions that will drive our hypothesis into making a decision in investing in India.  
 #### Hypothesis 
 **Null hypothesis** 
