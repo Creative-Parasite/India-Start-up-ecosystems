@@ -1,25 +1,69 @@
 # 🗺️ India-Start-up-ecosystems
-We embark on a journey of discovery as we leverage our data analysis expertise in a team of six to uncover the untapped potential within the Indian start-up ecosystem.
+India's startup ecosystem has experienced a remarkable surge in funding in recent years, propelling it to become one of the most vibrant and dynamic in the world. This overview will provide insights into the funding landscape, highlighting the growth and potential of India's startup ecosystem.
 
-## Scope of work 
-The sustainability of every business is dependent on a country's ecosystem in terms of productivity and ability to develop niches like startups and opportunities that increase the economic levels. For this particular project, our aim is to venture into india as a startup company,assess how feasible the business will be and mitigate all risk factors that may arise while venturing into India's startup industries. For the survival of the business, the project will be evaluating the following: 
-- Conducting a thorough exploration of datasets, dissecting funding patterns, sectoral nuances, and geographical hotspots in the Indian startup landscape
-- Analyze funding received by startups in india from 2018 to 2021
+## 🚗 Roadmap 
+- Retrieve data from external sources
+    - **Clone repository:** ```
+                                git clone https://link-to-project
+                            ```
+      
+      - **Project directory:** ```
+                                  cd my-project
+                              ```
+  - **Import necessary libraries :** `import pandas as pd` , `import numpy as np`
+- **EDA analysis** 
+- **Data cleaning** 
+- **Hypothesis testing** 
+- **Business analysis**
 
-## 💹 Structure of analysis 
-The project data will be extracted on external sources showcasing different startups in various industries with the level of funding they have received and its impact of performance on India's ecosystem. The analysis will be delving down into four major ecosystem sectors which include Funds, Investors, Industry and Geographical location each answering a set of business questions that will drive our hypothesis into making a decision in investing in India.  
-#### Hypothesis 
-**Null hypothesis** 
-The funds have zero impact to the ecosystem sectors in India.
-**Alternative hypothesis** 
-The funds have a huge impact to the ecosystem sectors in India.
+## Usage
+- Use functions in the `notebook`
+  
+  **example:**
+  
+  def concat_dataframes(data1,data2, data3, data4):
+    result = pd.concat([df1, df2, df3,df4], axis=0)
+    return result
+  
+## 🔄 Optimization 
+-- Refactor this function with your dataset index for optimal performance of the function.
 
-Further, we will be assessing the following:
-- Data cleaning
-- Data visualization
-- Hypothesis testing 
+-**Run the function once:**
 
-## 📋 Evaluation results and outcome
+def swap_row_cells(df, row_index, col1_index, col2_index):
 
+    """
+    Swaps the values in the given columns and row of a data array.
+    Parameters:
+    df (list): A 2D list representing the data array.
+    row_index (int): The index of the first column.
+    col1_index (int): The index of the second column.
+    col2_index (int): The index of the row where the values are swapped.
+    Returns:
+    list: The modified data array with swapped values.
+    """
+    
+    df.loc[row_index, [col1_index,col2_index]] = df.loc[row_index,[col2_index,col1_index]].values
+    return df
+    
+## 🗳️ Contributions
+Contributions are always welcome!
 
-## 🦹‍♀️ Author 
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Conclusion 🔥
+Feel the fire, burn with rage. For india, funding is the fuel that thrives innovation, growth and evolution.
+
+## Feedback
+
+If you have any feedback, please reach out at kamurin@zohomail.com 
+
+## 🦹‍♀️ Author
+[@Creative-Parasite](https://github.com/Creative-Parasite)
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/evalyne-kamuri/)
+
