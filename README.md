@@ -25,7 +25,7 @@ India's startup ecosystem has experienced a remarkable surge in funding in recen
 ## 🚗 Roadmap 
 - Retrieve data from external sources
   
-  -**Prerequistes**
+  - **Prerequistes**
   
   In order to run this project you need:
   
@@ -53,9 +53,16 @@ India's startup ecosystem has experienced a remarkable surge in funding in recen
     ```
         env/Scripts/activate
     ```
+  - **Install:**
+     Here, you need to recursively install the packages in the `requirements.txt` file using the command below 
+
+     ```
+       pip install -r requirements.txt
+     ```
   - **Import necessary libraries :**
     
      `import pandas as pd` , `import numpy as np`
+    
 - **EDA analysis** 
 - **Data cleaning** 
 - **Hypothesis testing** 
@@ -111,6 +118,9 @@ I would like to appreciate and thank my team members for making this project a s
 If you have any feedback, please reach out at kamurin@zohomail.com 
 
 ## 🦹‍♀️ Author
+
+**Nyawira Kamuri**
+
 [@Creative-Parasite](https://github.com/Creative-Parasite)
 
 ## 🔗 Links
