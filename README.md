@@ -1,22 +1,76 @@
 # 🗺️ India-Start-up-ecosystems
 India's startup ecosystem has experienced a remarkable surge in funding in recent years, propelling it to become one of the most vibrant and dynamic in the world. This overview will provide insights into the funding landscape, highlighting the growth and potential of India's startup ecosystem.
 
+ ### Features
+ **1. Company brand** - The name of the company.
+ 
+ **2. Sector** - The industry in which the company is in.
+ 
+ **3. Headquarter** - Where the office is suited.
+ 
+ **4. Founded** - The year in which the company was founded.
+ 
+ **5. About company** - The purpose of the company.
+ 
+ **6. Investors** - The investors interested in the startup companies.
+ 
+ **7. Amount** - The amount of funds received by each startup.
+ 
+ **8. Founder** - The owner of the company.
+ 
+ **9. Series** - Refers to the stage in which startups are funded.
+ 
+ **10. Year** - Refers to the year of amount funded.
+ 
 ## 🚗 Roadmap 
 - Retrieve data from external sources
-    - **Clone repository:** ```
-                                git clone https://link-to-project
-                            ```
-      
-      - **Project directory:** ```
-                                  cd my-project
-                              ```
-  - **Import necessary libraries :** `import pandas as pd` , `import numpy as np`
+  
+  - **Prerequistes**
+  
+  In order to run this project you need:
+  
+  . VS CODE
+  
+  . Python
+   
+    - **Clone repository:**
+      clone this repository to your desired folder
+      ```
+      cd my-folder
+      git clone https://github.com/Creative-Parasite/India-Start-up-ecosystems.git
+      ```
+    - **Project directory:** 
+       ```
+       cd my-project
+      ```
+
+    - **Create a virtual environment:**
+        ```
+        python -m venv env
+        ```
+
+  - **Activate the virtual environment:**
+    ```
+        env/Scripts/activate
+    ```
+  - **Install:**
+     Here, you need to recursively install the packages in the `requirements.txt` file using the command below 
+
+     ```
+       pip install -r requirements.txt
+     ```
+  - **Import necessary libraries :**
+    
+     `import pandas as pd` , `import numpy as np`
+    
 - **EDA analysis** 
 - **Data cleaning** 
 - **Hypothesis testing** 
 - **Business analysis**
 
 ## Usage
+-To run the project do paste the clone to your VS CODE
+
 - Use functions in the `notebook`
   
   **example:**
@@ -55,11 +109,18 @@ Contributions are always welcome!
 ## Conclusion 🔥
 Feel the fire, burn with rage. For india, funding is the fuel that thrives innovation, growth and evolution.
 
+## 🤜 Acknowledgements
+
+I would like to appreciate and thank my team members for making this project a success.
+
 ## Feedback
 
 If you have any feedback, please reach out at kamurin@zohomail.com 
 
 ## 🦹‍♀️ Author
+
+**Nyawira Kamuri**
+
 [@Creative-Parasite](https://github.com/Creative-Parasite)
 
 ## 🔗 Links
